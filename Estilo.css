@@ -1,0 +1,109 @@
+header{
+    background-color: greenyellow;
+    color: white;
+    margin: 0;
+    left: -14px;
+    overflow: hidden;
+    position: relative;
+    width: 1350px;
+    height: 55px;
+    border: 3px outset;
+    z-index: 1;
+}
+
+header p{
+    position: relative;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    top: -40%;
+    left: 53.5%;
+    transform: translate(-50%, 07%);
+    letter-spacing: 2.5px;
+}
+
+.BtnV{
+    position: absolute;
+    z-index: 6;
+    top: 13%;
+    left: -4.5%;
+    transform: translate(-50%, 200%);
+    width: 15em;
+    height: 2.5em;
+    border: 3px outset;
+    background-color: rgb(139, 206, 40);
+    font-size: 26px;
+    transform: scaleX(-1);
+    transform: skew(-25deg);
+    transition: all 0.3s ease;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.BtnV:hover{
+    left: -3%;
+    cursor: pointer
+}
+
+
+.Back{
+    position: absolute;
+    z-index: 6;
+    top: 85%;
+    left: -9.5%;
+    transform: translate(-50%, -50%);
+    width: 15em;
+    height: 2.5em;
+    border: 3px outset;
+    background-color: rgb(139, 206, 40);
+    font-size: 26px;
+    transform: scaleX(-1);
+    transform: skew(-25deg);
+    transition: all 0.3s ease;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Back:hover{
+    left: -8%;
+    cursor: pointer
+}
+.Back p{
+position: relative;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    top: 10%;
+    left: 64.5%;
+    transform: translate(-50%, -73%);
+    letter-spacing: 2.5px;
+}
+
+
+
+.Exit{
+    position: absolute;
+    top: 4.7%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.Exit button{
+    background-color: transparent;
+    border: 0px none transparent;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    transition: 0.2s;
+    letter-spacing: 2.5px;
+}
+
+.Exit button:hover{
+    color: crimson;
+    cursor: pointer;
+}
+
